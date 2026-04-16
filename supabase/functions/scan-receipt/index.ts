@@ -173,7 +173,7 @@ Deno.serve(async (req) => {
     const itemRows = parsedReceipt.items.map((item, index) => {
       const quantity = item.quantity ?? 1
       const total = item.total_cents ?? 0
-      const unit = item.unit_price_cents ?? (quantity > 0 ? Math.round(total / quantity) : total)
+      const unit = item.unit_price_cents ?? (quantity > 0 ? Math.round(total / quantity) : 0)
 
       return {
         bill_id: body.bill_id,
