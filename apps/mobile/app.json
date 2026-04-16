@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Split the Bill",
+    "slug": "splitthebill",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "splitthebill",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-camera"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.splitthebill.app"
+    },
+    "android": {
+      "package": "com.splitthebill.app"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

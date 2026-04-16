@@ -1,0 +1,10 @@
+node_modules
+.pnpm-store
+.turbo
+apps/mobile/.expo
+apps/mobile/dist
+apps/mobile/node_modules
+packages/**/dist
+.DS_Store
+.env
+apps/mobile/.env
