@@ -37,7 +37,7 @@ splitthebill/
 ### Prerequisites
 
 - Node.js 20+
-- pnpm 9+
+- pnpm 10+
 - Expo CLI (`npx expo` is fine)
 - Supabase CLI (for local DB/functions/deploy)
 
@@ -65,7 +65,7 @@ pnpm install
 Copy the example file:
 
 ```bash
-cp /home/runner/work/splitthebill/splitthebill/apps/mobile/.env.example /home/runner/work/splitthebill/splitthebill/apps/mobile/.env
+cp apps/mobile/.env.example apps/mobile/.env
 ```
 
 Set `EXPO_PUBLIC_SUPABASE_URL` and `EXPO_PUBLIC_SUPABASE_ANON_KEY`.
